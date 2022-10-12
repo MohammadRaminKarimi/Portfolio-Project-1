@@ -24,13 +24,15 @@
          	<div class="form-row mb-4 my-4 mx-5">
          	<div class="col-lg-9 mb-4">
          	 <label for="email" class="form-label">Username:</label>
-         	 <input type="email" class="form-control" id="email" placeholder="Type your username">
+         	 <input type="email" class="form-control" name="email" id="email" placeholder="Type your username">
+           <div id="email-error" class="mt-1 text-danger"><i class="bi bi-exclamation-lg">invalid username or phone number</i></div>
          	</div>
          	</div>
          	 <div class="form-row mx-5">
          	<div class="col-lg-9">
          	 <label for="password" class="form-label">Password:</label>
-         	 <input type="password" class="form-control" id="email" placeholder="Type your password">
+         	 <input type="password" class="form-control" name="password" id="email" placeholder="Type your password">
+           <div id="pass-error" class="text-danger mt-1"><i class="bi bi-exclamation-lg">Wrong password. Try again or click Forgot password to reset it.</i></div>
          	</div>
          	</div>
          	 <div class="form-row text-end mt-1 ">
@@ -52,8 +54,6 @@
    	</div>
   </section>
    
-  <script src="sign.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+  
 </body>
 </html>

@@ -45,6 +45,12 @@ form p{
 	margin-left: 110px;
 	
 }
+#email-error{
+	margin-left: -8px;
+}
+#pass-error{
+	margin-left: -8px;
+}
 
 @media screen and (max-width: 900px) {
 	.row{
