@@ -37,6 +37,10 @@ button {
 	border:#fff;
 	border-radius: 90px;
 }
+#tops{
+	margin-top: -22px;
+}
+
 .forgots{
 	margin-right: -90px;
 }
@@ -45,11 +49,11 @@ form p{
 	margin-left: 110px;
 	
 }
-#email-error{
-	margin-left: -8px;
-}
-#pass-error{
-	margin-left: -8px;
+#font{
+	position: absolute;
+	left: 80.5%;
+	font-size: 17px;
+	top: 44%;
 }
 
 @media screen and (max-width: 900px) {
