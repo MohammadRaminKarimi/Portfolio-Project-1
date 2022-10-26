@@ -371,7 +371,7 @@ body{
        #about-title{
 	   font-size: 2rem;
        position: absolute;
-       top: 102%;
+       top: 94%;
        z-index: 9;
        left: -46%;
     }
@@ -380,8 +380,8 @@ body{
 
 	#about-parag{
 		position: relative;
-		width: 450px;
-		margin-top: -190px;
+		width: 420px;
+		margin-top: -140px;
 		left: -52%;
 	
 
