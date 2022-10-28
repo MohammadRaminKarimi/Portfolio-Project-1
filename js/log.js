@@ -1,12 +1,10 @@
-
 function myfunc() {
-	let pass = document.getElementById("password");
+	var password = document.getElementById("password");
 
-	if(pass.type === "password") {
-		pass.type = "text";
-	} else {
-		pass.type = "password";
+	if(password.type === "password") {
+		password.type = 'text';
+	} else
+	{
+		password.type = 'password';
 	}
 }
-
-

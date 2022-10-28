@@ -56,10 +56,10 @@ form .form-control{
      	left: 0%;
      }
       .img{
-	   width: 488px;
+	   width: 470px;
 	   height: 400px;
 	   position: relative;
-	   left: 0%;
+	   left: 1.5%;
 	   
      }
     
@@ -71,4 +71,18 @@ form .form-control{
      .signup h2{
      	margin-bottom: 18px;
      }
+
+     form .form-control{
+	  width: 390px;
+   }
+   .forgots{
+   	margin-right: 6px;
+   }
+
+   .parag{
+	  position: relative;
+	  margin-top: 41px;
+	  left: 14%;
+   }
+
 }
