@@ -58,8 +58,7 @@ form .form-control{
       .img{
 	   width: 470px;
 	   height: 400px;
-	   position: relative;
-	   left: 1.5%;
+	   margin-left: 0px;
 	   
      }
     
