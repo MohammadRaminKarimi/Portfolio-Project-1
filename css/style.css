@@ -255,13 +255,13 @@ body{
 }
 @media screen and (max-width: 900px) {
    .skill-mf{
-   	position: absolute;
-   	top: 27%;
-   	left: -0.5%;
+   	margin-top: -140px;
+   	float: left;
    	
    }
-   .skillsbar{
-      float: left;
+   .skillbar{
+   	float: left;
+
    }
    #title{
    	margin-top: -4px;
@@ -285,7 +285,7 @@ body{
    }
    .about-info{
    	position: relative;
-   	left: -4%;
+   	left: 0%;
 
    }
 }
@@ -315,7 +315,7 @@ body{
    .img-fluid{
    	position: absolute;
    	top: 0.7%;
-   	left: -1%;
+   	left: 3%;
    }
    
 
@@ -374,17 +374,16 @@ body{
        position: absolute;
        top: 94%;
        z-index: 9;
-       left: -49%;
+       left: -46%;
     }
 
 
 
 	#about-parag{
 		position: relative;
-		width: 420px;
-		margin-top: -140px;
-		left: -55%;
-	
+		width: 400px;
+		margin-top: -190px;
+		left: -52%;
 
 	}
 }
@@ -950,7 +949,7 @@ body{
 .php-email-form button{
      border-radius: 26px;
      position: absolute;
-     top: 80%;
+     top: 772;
      left: 20%;
     transform: translate(-50%, -50%);
     background: #6610f2;
@@ -1279,4 +1278,36 @@ footer{
 .bi-arrow-up{
 	text-align: center;
 	margin-right: -1px;
+}
+.messg{
+	position: relative;
+	left: 6.7%;
+	margin-top: 15px;
+	font-size: 17px;
+	animation: button .3s linear;
+}
+.messg .success{
+	animation: button .3s linear;
+	display: none;
+	
+}
+
+.messg .wrong{
+    margin-top: -8px;
+    margin-left: 80px;
+    font-size: 16px;
+    animation: button .3s linear;
+    display: none;
+}
+
+@keyframes button {
+   0%{
+   	transform: scale(0.1);
+   }
+   50%{
+   	transform: scale(0.5);
+   }
+   100%{
+   	transform: scale(1);
+   }
 }

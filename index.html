@@ -646,7 +646,7 @@
                   <h3 class="title-left ms-4">Send Message Us</h3>
                 </div>
                </div>
-                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                 <form method="post" class="php-email-form">
                    <div class="row">
                     <div class="col-md-12 col-lg-6 mb-5 ms-4 text-start">
                      <div class="form-group">
@@ -665,13 +665,17 @@
                     </div>
                         <div class="col-md-12 col-lg-6 mb-4 ms-4 text-start">
                        <div class="form-group">
-                       <textarea class="form-control" name="Message" id="message" placeholder="Message" rows="5" required></textarea>
+                       <textarea class="form-control" name="Message" id="message" placeholder="Message" rows="5"></textarea>
                      </div>
                     </div>
                      
                       <div class="col-md-12 col-lg-4 mb-4">
-                      <button type="submit" class="btn btn-lg">Send Message</button>
+                      <button type="submit" class="btn btn-lg" id="btn" onclick="myFun()">Send Message</button>
                      
+                    </div>
+                    <div class="messg">
+                      <div class="success text-success" id="success">Your Message is Sent Succesfully Thank You.</div>
+                      <div class="wrong text-danger" id="wrong">Fields' Cant' Be Empty.</div>
                     </div>
                     </div>
                    </div>

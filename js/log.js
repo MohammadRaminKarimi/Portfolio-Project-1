@@ -8,3 +8,5 @@ function myfunc() {
 		pass.type = "password";
 	}
 }
+
+
