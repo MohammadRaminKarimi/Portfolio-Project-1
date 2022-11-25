@@ -3,9 +3,37 @@ body{
     overflow-x: hidden;
 	
 }
+.banners{
+	position: relative;
+	background-color: #d9b611;
+	width: 100%;
+	height: 35px;
+}
+.banners-info{
+	position: relative;
+	left: 34%;
+}
+.banners-body p{
+   position: absolute;
+   color: #fff;
+   font-size: 16px;
+   margin-top: 3px;
 
+}
+
+.banners-close{
+	position: absolute;
+	margin-top: 3px;
+	left: 62%;
+
+}
+
+.banners-close a{
+    color: #fff;
+    font-size: 19px;
+}
 .navbar{
-	margin-top: 0;
+	margin-top: 29px;
 }
 
 .mobile-nav-toggle {
@@ -22,9 +50,8 @@ body{
 	outline: none;
 	border: none;
 }
-#logo{
-	margin-top: 2px;
-
+.jans{
+	margin-top: 18px;
 }
 #checkbox{
 	margin-left: -5px;
@@ -77,6 +104,7 @@ body{
 .image{
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/beard.jpg);
 	height: 600px;
+	margin-top: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -948,9 +976,9 @@ body{
 }
 .php-email-form button{
      border-radius: 26px;
-     position: absolute;
+     position: ;
      top: 772;
-     left: 20%;
+     left: 0%;
     transform: translate(-50%, -50%);
     background: #6610f2;
     color: #fff;

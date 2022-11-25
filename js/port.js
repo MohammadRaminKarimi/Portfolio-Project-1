@@ -1,3 +1,9 @@
+document.querySelector(".banners-close").addEventListener('click', function() {
+   this.closest(".banners").remove();
+});
+
+
+
 let navbar = document.querySelector(".navbar");
 window.addEventListener('scroll', function() {
    if (window.scrollY > 100) {

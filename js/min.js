@@ -14,3 +14,4 @@ window.addEventListener('scroll', function() {
 window.addEventListener("click", function () {
    window.scrollTo(0, 0);
 });
+
