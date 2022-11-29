@@ -1,4 +1,7 @@
 
+
+
+
 @media screen and (max-width: 900px) {
 	html {
        overflow-x: hidden;
@@ -38,6 +41,29 @@ body{
 .banners-close a{
     color: #fff;
     font-size: 19px;
+}
+
+@media screen and (max-width: 900px) {
+	.banners {
+		position: relative;
+		margin-top: 57px;
+		z-index: 2;
+	}
+
+	.banners-info{
+		position: relative;
+		left: 0.7%;
+	}
+	.banners-close{
+		position: absolute;
+		left: 94.8%;
+
+	}
+
+	.banners-body p{
+		font-size: 16px;
+
+	}
 }
 .navbar{
 	margin-top: 29px;
@@ -1295,7 +1321,7 @@ footer{
 }
 #arrowin{
 	position: fixed;
-	right: 10px;
+	right: 28px;
 	bottom: 10px;
 	text-align: center;
 	background-color: #6210ff;
@@ -1304,6 +1330,7 @@ footer{
 	border-radius: 50%;
 	color: #fff;
 	border-color: #6210ff;
+	cursor: pointer;
 
 
 }
@@ -1316,14 +1343,6 @@ footer{
 	background-color: #6210ff;
 }
 
-@media screen and (max-width: 900px) {
-  #arrowin{
-  	position: fixed;
-  }
-  .bi-arrow-up{
-  	text-align: center;
-  }
-}
 
 .messg{
 	position: relative;
