@@ -1294,21 +1294,33 @@ footer{
 	}
 }
 #arrowin{
-	position: fixed;
-	right: 10px;
-	bottom: 10px;
+	position: absolute;
+	margin-top: -26px;
+	left: 93.6%;
+	background-color: #6210ff;
 	width: 40px;
 	height: 40px;
-	background-color: #6210ff;
 	border-radius: 50%;
 	color: #fff;
-	cursor: pointer;
 	border-color: #6210ff;
+	border-right-color: #6210ff;
 
 
 }
+
+.bi-arrow-up{
+	text-align: center;
+}
+
 #arrowin:active{
 	background-color: #6210ff;
+}
+
+@media screen and (max-width: 900px) {
+  #arrowin{
+  	position: relative;
+  	left: 85%;
+  }
 }
 
 .messg{
