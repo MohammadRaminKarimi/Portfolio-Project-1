@@ -23,7 +23,7 @@ body{
 .banners-body p{
    position: absolute;
    color: #fff;
-   font-size: 16px;
+   font-size: 17px;
    margin-top: 3px;
 
 }
@@ -983,11 +983,11 @@ body{
 }
 .php-email-form button{
      border-radius: 26px;
-     position: ;
-     top: 772;
-     left: 0%;
+     position: relative;
+     right: 83%;
     transform: translate(-50%, -50%);
     background: #6610f2;
+    z-index: 999;
     color: #fff;
 }
 @media screen and (max-width: 1200px) {
@@ -1015,8 +1015,10 @@ body{
   }
   .php-email-form button{
      border-radius: 26px;
+     position: relative;
+     right: 0%;
      margin-top: -10px;
-     margin-left: 120px;
+     left: 45%;
      
   }
 
@@ -1085,13 +1087,13 @@ body{
 	position: relative;
 	text-align: center;
 	left: 58%;
-	margin-top: -70px;
+	margin-top: -120px;
 }
 .social-ico ul{
 	list-style: none;
 	margin-left: 53px;
-	font-size: 20px;
-	word-spacing: 5px;
+	font-size: 23px;
+	word-spacing: 7px;
 }
 .social-ico ul a{
 	text-decoration: none;
@@ -1131,7 +1133,7 @@ body{
 	text-align: center;
 	z-index: 2;
 	left: -11%;
-	top: 92%;
+	top: 97%;
 }
  
 }
