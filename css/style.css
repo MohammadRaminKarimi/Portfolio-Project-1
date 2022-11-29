@@ -1,3 +1,6 @@
+html, body {width: auto!important; overflow-x: hidden!important}
+
+
 body{
 	background-color: #f5f5f5;
     overflow-x: hidden;
