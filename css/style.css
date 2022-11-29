@@ -61,7 +61,7 @@ body{
 	}
 
 	.banners-body p{
-		font-size: 16px;
+		font-size: 15px;
 
 	}
 }
@@ -1321,7 +1321,7 @@ footer{
 }
 #arrowin{
 	position: fixed;
-	right: 28px;
+	right: 17px;
 	bottom: 10px;
 	text-align: center;
 	background-color: #6210ff;
@@ -1334,8 +1334,10 @@ footer{
 
 
 }
-
-.bi-arrow-up{
+#arrowin i{
+	position: relative;
+	right: 0%;
+	left: 0%;
 	text-align: center;
 }
 
