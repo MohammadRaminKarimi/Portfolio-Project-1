@@ -1334,11 +1334,12 @@ footer{
 
 
 }
-#arrowin i{
-	position: relative;
-	right: 0%;
-	left: 0%;
-	text-align: center;
+@media screen and (max-width: 900px) {
+	#arrowin .bi-arrow-up{
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
 }
 
 #arrowin:active{
