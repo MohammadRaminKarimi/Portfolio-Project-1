@@ -1299,21 +1299,18 @@ footer{
 	bottom: 10px;
 	width: 40px;
 	height: 40px;
-	border: none;
-	outline: none;
-	background: #6210ff;
-	color: #ffff;
+	background-color: #6210ff;
 	border-radius: 50%;
+	color: #fff;
 	cursor: pointer;
+	border-color: #6210ff;
+
+
 }
 #arrowin:active{
 	background-color: #6210ff;
 }
 
-.bi-arrow-up{
-	text-align: center;
-	margin-right: -1px;
-}
 .messg{
 	position: relative;
 	left: 6.7%;
