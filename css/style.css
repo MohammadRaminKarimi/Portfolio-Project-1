@@ -52,16 +52,19 @@ body{
 
 	.banners-info{
 		position: relative;
-		left: 0.7%;
+	    left: 2%;
 	}
 	.banners-close{
 		position: absolute;
-		left: 94.8%;
+		left: 92%;
+		top: -1%;
 
 	}
 
 	.banners-body p{
 		font-size: 15px;
+		margin-top: 4px;
+		text-align: center;
 
 	}
 }
@@ -1324,23 +1327,14 @@ footer{
 	right: 17px;
 	bottom: 10px;
 	text-align: center;
-	background-color: #6210ff;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	color: #fff;
-	border-color: #6210ff;
+	width: 36px;
+	height: 36px;
 	cursor: pointer;
+	border-color: #fff;
 
 
 }
-@media screen and (max-width: 900px) {
-	#arrowin .bi-arrow-up{
-		margin-left: 0px;
-		margin-right: 0px;
-		text-align: center;
-	}
-}
+
 
 #arrowin:active{
 	background-color: #6210ff;
