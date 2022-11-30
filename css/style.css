@@ -24,7 +24,7 @@ body{
 }
 .banners-info{
 	position: relative;
-	left: 34%;
+	left: 39%;
 }
 .banners-body p{
    position: absolute;
@@ -37,7 +37,7 @@ body{
 .banners-close{
 	position: absolute;
 	margin-top: 3px;
-	left: 62%;
+	left: 56%;
 
 }
 
@@ -66,7 +66,7 @@ body{
 
 	.banners-body p{
 		font-size: 15px;
-		margin-top: 4px;
+		margin-top: 6px;
 		text-align: center;
 
 	}
