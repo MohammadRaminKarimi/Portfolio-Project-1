@@ -1,4 +1,7 @@
-
+html{
+	margin: 0;
+	padding: 0;
+}
 
 
 
@@ -1322,23 +1325,6 @@ footer{
 
 	}
 }
-#arrowin{
-	position: fixed;
-	right: 17px;
-	bottom: 10px;
-	text-align: center;
-	width: 36px;
-	height: 36px;
-	cursor: pointer;
-	border-color: #fff;
-
-
-}
-
-
-#arrowin:active{
-	background-color: #6210ff;
-}
 
 
 .messg{
@@ -1360,6 +1346,29 @@ footer{
     font-size: 16px;
     animation: button .3s linear;
     display: none;
+}
+
+#arrowat{
+	position: fixed;
+	right: 23px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+    bottom: 10px;
+    margin-top: -40px;
+    background-color: #6610f2;
+    color: #fff;
+    border:#6610f2;
+}
+
+#arrowat i{
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	margin-top: -2px;
+	font-size: 26px;
+	position: relative;
+
 }
 
 @keyframes button {
