@@ -1358,12 +1358,15 @@ footer{
 	border-radius: 50%;
 	color: #fff;
 	border: #6610f2;
+	margin-top: -9px;
 	
 }
 
 #arrowin i{
+	position: fixed;
+	right: 28px;
 	font-size: 25px;
-	text-align: center;
+	margin-top: 2px;
 
 }
 
