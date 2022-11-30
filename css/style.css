@@ -1353,10 +1353,8 @@ footer{
 	right: 19px;
 	bottom: 10px;
 	background-color: #6610f2;
-	align-items: center;
 	width: 44px;
 	height: 44px;
-	text-align: center;
 	border-radius: 50%;
 	color: #fff;
 	border: #6610f2;
@@ -1366,9 +1364,6 @@ footer{
 #arrowin i{
 	font-size: 25px;
 	text-align: center;
-	position: relative;
-	left: 0%;
-	right: 0%;
 
 }
 
