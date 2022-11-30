@@ -1360,13 +1360,14 @@ footer{
 	border: #6610f2;
 	margin-top: -9px;
 	
+	
 }
 
 #arrowin i{
-	position: fixed;
-	right: 28px;
+	position: relative;
 	font-size: 25px;
-	margin-top: 2px;
+	margin-left: 10px;
+	margin-top: 10px;
 
 }
 
