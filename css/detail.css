@@ -343,14 +343,16 @@ body{
 	outline: none;
 	background: #6210ff;
 	color: #ffff;
+	margin-top: -9px;
 	border-radius: 50%;
-	cursor: pointer;
 }
 #arrown:active{
 	background-color: #6210ff;
 }
 
-.bi-arrow-up{
-	float: left;
-	margin-left: 8px;
+#arrown i{
+	position: relative;
+	font-size: 20px;
+	margin-left: 10px;
+	top: 8%;
 }
