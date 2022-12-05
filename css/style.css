@@ -1,6 +1,9 @@
+
+
 html{
 	margin: 0;
 	padding: 0;
+	-webkit-text-size-adjust: none;
 }
 
 
@@ -8,6 +11,7 @@ html{
 @media screen and (max-width: 900px) {
 	html {
        overflow-x: hidden;
+       -webkit-text-size-adjust: none;
 	}
 }
 
@@ -141,7 +145,7 @@ body{
 
 
 .image{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/beard.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/web.webp);
 	height: 600px;
 	margin-top: 0px;
 	background-repeat: no-repeat;
@@ -1022,6 +1026,7 @@ body{
     z-index: 999;
     color: #fff;
 }
+
 @media screen and (max-width: 900px) {
 	.title-left{
 	font-size: 2rem;
@@ -1069,6 +1074,8 @@ body{
 	left: 30%;
 
 }
+
+
 
 }
 .box-title .title-right{
@@ -1166,6 +1173,81 @@ body{
   	margin-top: -19px;
 }
  
+}
+
+.popup{
+	width: 400px;
+	height: 360px;
+	background-color: #333;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+
+.open-pop{
+	top: 50%;
+	transform: translate(-50%, -50%) scale(1);
+	visibility: visible;
+}
+
+.popup-info{
+	position: absolute;
+	left: 8%;
+	top: 9%;
+	color: #fff;
+}
+
+.pop-ico {
+	position: absolute;
+	top: -20%;
+	text-align: center;
+	width: 85px;
+	height: 82px;
+	border-radius: 50%;
+	background-color: #4ee44e;
+	left: 38%;
+	font-size: 25px;
+	text-align: center;
+}
+
+.bi-check-lg{
+	margin-top: 10px;
+	font-size: 40px;
+	position: absolute;
+	left: 27%;
+	text-align: center;
+
+}
+
+.popup-p h2 {
+	margin-top: 68px;
+	margin-left: 87px;
+}
+
+.popup-p p{
+	text-align: center;
+	margin-top: 24px;
+	margin-left: 43px;
+}
+
+.popup-p a{
+	font-size: 19px;
+	padding: 12px 110px;
+	background-color: #4ee44e;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	left: 15%;
+    margin-top: 56px;
+}
+
+.ok{
+	margin-top: 30px;
 }
 footer{
 	width: 1560px;
@@ -1368,6 +1450,7 @@ footer{
 	font-size: 25px;
 	margin-left: 10px;
 	top: 8%;
+	color: #fff;
 
 }
 
