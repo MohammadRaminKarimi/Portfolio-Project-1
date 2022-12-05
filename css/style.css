@@ -326,8 +326,10 @@ body{
 }
 @media screen and (max-width: 900px) {
    .skill-mf{
-   	margin-top: -140px;
+   	margin-top: 8px;
    	float: left;
+   	position: relative;
+   	left: -3%;
    	
    }
    .skillbar{
@@ -374,6 +376,7 @@ body{
 	.box-shadow-full {
     padding: 1rem;
     position: relative;
+    margin-top: 0px;
     background-color: #fff;
     z-index: 2;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 13%), 0 2px 5px 0 rgb(0 0 0 / 29%);
@@ -386,7 +389,7 @@ body{
    .img-fluid{
    	position: absolute;
    	top: 0.7%;
-   	left: 3%;
+   	left: 0%;
    }
    
 
@@ -394,7 +397,7 @@ body{
 
 }
    .about-info{
-	margin-left: -29px;
+	margin-left: -43px;
 	margin-top: 6px;
 
   }
@@ -445,7 +448,7 @@ body{
        position: absolute;
        top: 94%;
        z-index: 9;
-       left: -46%;
+       left: -49%;
     }
 
 
@@ -453,8 +456,8 @@ body{
 	#about-parag{
 		position: relative;
 		width: 400px;
-		margin-top: -190px;
-		left: -52%;
+		margin-top: -150px;
+		left: -54.5%;
 
 	}
 }
