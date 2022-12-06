@@ -3,16 +3,14 @@ document.querySelector(".banners-close").addEventListener('click', function() {
 });
 
 
-
-let navbar = document.querySelector(".navbar");
+var navbar = document.querySelector(".navbar");
 window.addEventListener('scroll', function() {
-   if (window.scrollY > 100) {
-   	navbar.classList.add('bg-dark');
-   } else {
-   	navbar.classList.remove('bg-dark');
-   }
+  if (window.scrollY > 100) {
+   navbar.classList.add('bg-dark');
+  } else {
+   navbar.classList.remove('bg-dark');
+  }
 });
-
 
 
 let arrowin = document.querySelector('#arrowin');

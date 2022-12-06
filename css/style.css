@@ -1,12 +1,9 @@
 
-
 html{
-	margin: 0;
-	padding: 0;
-	-webkit-text-size-adjust: none;
+	scroll-behavior: smooth;
+	scroll-padding-top: var(--scroll-padding, 50px);
+
 }
-
-
 
 @media screen and (max-width: 900px) {
 	html {
@@ -16,10 +13,8 @@ html{
 }
 
 body{
-	background-color: #f5f5f5;
-    overflow-x: hidden;
-	
-}
+	overflow-x: hidden;
+	}
 .banners{
 	position: relative;
 	background-color: #d9b611;
@@ -53,7 +48,7 @@ body{
 @media screen and (max-width: 900px) {
 	.banners {
 		position: relative;
-		margin-top: 57px;
+		margin-top: 0px;
 		z-index: 2;
 	}
 
@@ -75,9 +70,21 @@ body{
 
 	}
 }
+
 .navbar{
-	margin-top: 29px;
+	width: 100%;
+	position: fixed;
+	margin-top: 30px;
 }
+
+@media screen and (max-width:900px) {
+	.navbar{
+		overflow-x: hidden;
+		top: 0;
+	}
+	
+}
+
 
 .mobile-nav-toggle {
     color: #fff;
@@ -109,25 +116,12 @@ body{
 		display: block;
 		
 	}
-	
 }
 
 @media (max-width: 900px) {
-    .container {
-      padding:0;
-      margin:0;
-    }
-    body {
-      overflow-x: hidden;
-    }
-   
-    .navbar{
-    	padding-top: 3px;
-    	margin-top: 0;
-    	background: #6610f2;
-    	overflow-x: hidden;
-    }
-   
+   body{
+   	overflow-x: hidden;
+   }
     .navbar-toggler{
     	margin-top: 1px;
     }
@@ -147,7 +141,7 @@ body{
 .image{
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/web.webp);
 	height: 600px;
-	margin-top: 0px;
+	margin-top: -20px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -329,7 +323,7 @@ body{
    	margin-top: 8px;
    	float: left;
    	position: relative;
-   	left: -3%;
+   	left: -3.7%;
    	
    }
    .skillbar{
@@ -1178,26 +1172,6 @@ body{
  
 }
 
-.popup{
-	width: 400px;
-	height: 360px;
-	background-color: #333;
-	position: absolute;
-	top: 0%;
-	left: 50%;
-	transform: translate(-50%, -50%) scale(0.1);
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
-
-}
-
-
-.open-pop{
-	top: 50%;
-	transform: translate(-50%, -50%) scale(1);
-	visibility: visible;
-}
-
 .popup-info{
 	position: absolute;
 	left: 8%;
@@ -1238,20 +1212,6 @@ body{
 	margin-left: 43px;
 }
 
-.popup-p a{
-	font-size: 19px;
-	padding: 12px 110px;
-	background-color: #4ee44e;
-	color: #fff;
-	text-decoration: none;
-	position: absolute;
-	left: 15%;
-    margin-top: 56px;
-}
-
-.ok{
-	margin-top: 30px;
-}
 footer{
 	width: 1560px;
 	height: 460px;
