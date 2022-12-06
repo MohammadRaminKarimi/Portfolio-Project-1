@@ -80,7 +80,7 @@ body{
 @media screen and (max-width:900px) {
 	.navbar{
 		overflow-x: hidden;
-		top: 0;
+		margin-top: 24px;
 	}
 	
 }
@@ -1295,7 +1295,7 @@ footer{
 	.footers .navs{
 	
 		position: relative;
-		margin-left: -440px;
+		margin-left: -420px;
 		margin-top: 50px;
 		
 	}
@@ -1319,7 +1319,7 @@ footer{
 
 	.footers .sorvice {
 	    position: relative;
-	    margin-left: -1330px;
+	    margin-left: -1270px;
 		margin-top: 46px;
 
 	}
