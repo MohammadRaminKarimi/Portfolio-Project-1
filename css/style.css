@@ -58,7 +58,7 @@ body{
 	}
 	.banners-close{
 		position: absolute;
-		left: 92%;
+		left: 88.2%;
 		top: -1%;
 
 	}
@@ -78,7 +78,8 @@ body{
 @media screen and (max-width:900px) {
 	.navbar{
 		overflow-x: hidden;
-		margin-top: 22px;
+		margin-top: 31px;
+		background-color: #333;
 	}
 	
 }
