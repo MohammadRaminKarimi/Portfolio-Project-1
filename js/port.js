@@ -2,16 +2,11 @@ document.querySelector(".banners-close").addEventListener('click', function() {
    this.closest(".banners").remove();
 });
 
-
-var navbar = document.querySelector(".navbar");
 window.addEventListener('scroll', function() {
-  if (window.scrollY > 100) {
-   navbar.classList.add('bg-dark');
-  } else {
-   navbar.classList.remove('bg-dark');
-  }
+ var navbar = document.querySelector('.navbar');
+ navbar.classList.toggle('sticky', window.scrollY > 39);
+ 
 });
-
 
 let arrowin = document.querySelector('#arrowin');
 window.addEventListener("click", function () {

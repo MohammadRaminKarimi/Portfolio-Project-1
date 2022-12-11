@@ -71,17 +71,27 @@ body{
 	}
 }
 
+.sticky {
+	z-index: 999;
+	position: fixed;
+	background-color: #333;
+}
 .navbar{
-	margin-top: 26px;
+	position: sticky;
+	top: 0;
 }
 
 @media screen and (max-width:900px) {
 	.navbar{
-		overflow-x: hidden;
-		margin-top: 31px;
-		background-color: #333;
-		width: 100%;
+	   overflow-x: hidden;
 	}
+    
+    .sticky{
+    	position: fixed;
+    	background-color: #333;
+    	z-index: 999;
+    }
+
 	
 }
 
@@ -141,7 +151,7 @@ body{
 .image{
 	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/web.webp);
 	height: 600px;
-	margin-top: -20px;
+	margin-top: -79px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -207,6 +217,8 @@ body{
 		height: 650px;
 		background-position: center;
 		overflow-x: hidden;
+		margin-top: -97px;
+		
 	
 	}
 	.image h2{
