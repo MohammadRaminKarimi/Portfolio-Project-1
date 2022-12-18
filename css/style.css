@@ -1,20 +1,12 @@
-
 html{
 	scroll-behavior: smooth;
 	scroll-padding-top: var(--scroll-padding, 50px);
-
-}
-
-@media screen and (max-width: 900px) {
-	html {
-       overflow-x: hidden;
-       -webkit-text-size-adjust: none;
-	}
 }
 
 body{
 	overflow-x: hidden;
 	}
+
 .banners{
 	position: relative;
 	background-color: #d9b611;
@@ -822,7 +814,7 @@ body{
 
 @media screen and (max-width: 1000px) {
 	.text-center .text-title-a{
-		margin-top: 500px;
+		margin-top: 550px;
 		margin-left: -10px;
 	}
 	.text-title::before{
@@ -874,6 +866,7 @@ body{
 	font-size: 3rem;
 	z-index: 2;
 	color: #000;
+	margin-top: 60px;
 }
 .tem {
   font-size: 14px;
@@ -928,7 +921,9 @@ body{
 .card-footer{
 	padding: 0.5rem 1rem;
 	background-color: rgba(0,0,0,.03);
-	border-top: 1px solid rgba(0,0,0,.125);
+	border-top: 1px solid rgba(0,0,0,.03);
+
+
 	background-color: #fff;
 
 }

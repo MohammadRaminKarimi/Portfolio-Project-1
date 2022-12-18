@@ -4,7 +4,7 @@ document.querySelector(".banners-close").addEventListener('click', function() {
 
 window.addEventListener('scroll', function() {
  var navbar = document.querySelector('.navbar');
- navbar.classList.toggle('sticky', window.scrollY > 39);
+ navbar.classList.toggle('sticky', window.scrollY > 40);
  
 });
 
@@ -24,3 +24,8 @@ function openPopup() {
 function closePopup() {
    popup.classList.remove("open-pop");
 }
+
+
+
+const navigationheight = document.querySelector('.navbar').offsetHeight;
+document.documentElement.style.setProperty('--scroll-padding', navigationheight - 1 + "px");
