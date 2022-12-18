@@ -11,6 +11,7 @@
 .img{
 	width: 600px;
 	height: 600px;
+	position: relative;
 }
 
 .signup{
@@ -58,7 +59,8 @@ form .form-control{
       .img{
 	   width: 459px;
 	   height: 400px;
-	   margin-left: 0px;
+	   position: relative;
+	   left: 0;
 	   
      }
     
