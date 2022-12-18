@@ -326,10 +326,9 @@ body{
 @media screen and (max-width: 900px) {
    .skill-mf{
     position: relative;
-    left: 42.5%;
-    margin-top: 27%;
+    left: -2%;
+    margin-top: 4%;
     float: left;
-    transform: translate(-50%, -50%);
    	
    }
    .skillbar{
@@ -369,27 +368,27 @@ body{
 
 @media screen and (max-width: 900px) {
 	.box-shadow-full {
-		padding-bottom: 0rem;
+		padding-bottom: 6rem;
      	position: relative;
      	left: 0%;
-     	overflow-x: hidden;
+
    
 }
 	.about-mf .box-shadow-full {
-    padding-top: 11rem;
+    padding-top: 12rem;
     padding-bottom: 0rem;
     z-index: 2;
    }
    .img-fluid{
    	position: absolute;
-   	top: 0%;
+   	top: 1%;
    	left: -3%;
    }
 
    .about-info{
    	margin-left: 89px;
     position: absolute;
-    top: 26%;
+    top: 36%;
    }
    
 
@@ -446,23 +445,21 @@ body{
 
 @media screen and (max-width: 900px) {
 
-       #about-title{
-	   font-size: 2rem;
-       position: absolute;
-       top: 103%;
-       z-index: 9;
-       left: -47%;
+	.post{
+		position: relative;
+	    margin-top:200px;
+	    left: -93%;
+	    z-index: 2;
+
+	}
+    #about-title{
+    	position: relative;
+    	margin-top: 20px;
+
     }
-
-
-
 	#about-parag{
-		position:relative;
+		position: relative;
 		width: 400px;
-		margin-top: 40%;
-		left: -7.8%;
-		transform: translate(-50%, -50%);
-
 	}
 }
 
