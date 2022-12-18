@@ -3,6 +3,9 @@ html{
 	scroll-padding-top: var(--scroll-padding, 50px);
 }
 
+
+
+
 body{
 	overflow-x: hidden;
 	}
@@ -121,6 +124,9 @@ body{
 }
 
 @media (max-width: 900px) {
+	html{
+		overflow-x: hidden;
+	}
    body{
    	overflow-x: hidden;
    }
