@@ -12,6 +12,7 @@
 	width: 600px;
 	height: 600px;
 	position: relative;
+	left: 0%;
 }
 
 .signup{
@@ -83,7 +84,7 @@ form .form-control{
 	  width: 370px;
    }
    .forgots{
-   	margin-right: 12px;
+   	margin-right: 8px;
    }
 
    .parag{
