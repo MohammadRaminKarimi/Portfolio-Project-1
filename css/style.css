@@ -259,13 +259,6 @@ body{
 	list-style: none;
 
 }
-.about-mf{
-	padding-top: 2rem;
-	
-}
-.about-mf{
-	box-sizing: border-box;
-}
 .about-mf .box-shadow-full {
     padding-top: 3rem;
     padding-bottom: 4rem;
@@ -326,13 +319,16 @@ body{
 @media screen and (max-width: 900px) {
    .skill-mf{
     position: relative;
-    left: -2%;
-    margin-top: 4%;
+    left: -2.6%;
+    margin-top: 1%;
     float: left;
    	
    }
    .skillbar{
    	float: left;
+   	margin-left: 0px;
+   	position: relative;
+
 
    }
    #title{
@@ -386,9 +382,9 @@ body{
    }
 
    .about-info{
-   	margin-left: 89px;
-    position: absolute;
-    top: 36%;
+   	position: relative;
+   	margin-left: 19.4%;
+   	top: 27%;
    }
    
 
@@ -454,12 +450,16 @@ body{
 	}
     #about-title{
     	position: relative;
-    	margin-top: 20px;
+    	margin-top: 340px;
+       z-index: 9;
+       left: 95%;
 
     }
 	#about-parag{
 		position: relative;
 		width: 400px;
+		left: 95%;
+
 	}
 }
 
