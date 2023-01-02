@@ -149,7 +149,7 @@ body{
 
 
 .image{
-	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/web.webp);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/web.webp);
 	height: 600px;
 	margin-top: -79px;
 	background-repeat: no-repeat;
